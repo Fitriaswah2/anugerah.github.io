@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>My Portfolio|Anugerah Fitria Aswah</title>
+  </head>
+  <body>
+    <!--navbar-->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+        <div class="container">
+          <a class="navbar-brand fs-3 fw-bold" href="#">Anugerah Fitria Aswah</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active fs-4" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-4" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-4" href="#projects">Project</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-4" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!--Jumbotron-->
+
+      <section class="jumbotron text-center">
+        <img src="img/fitri2.jpeg" alt="Anugerah Fitria Aswah" width="200px" class="rounded-circle img-thumbnail">
+        <h1 class="display-4">Anugerah Fitria Aswah</h1>
+        <p class="lead">SMKN 2 Bangkalan Students</p>
+      </section>
+
+      <!--About-->
+
+      <section id="about">
+        <div class="container mt-5">
+            <div class="row text-center justify-content-center">
+                <div class="col">
+                    <h2>About Me</h2>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col">
+                    <p>
+                      Saya siswi SMKN 2 Bangkalan dan di sekolah ini saya mengambil jurusan RPL ( Rekayasa Perangkat Lunak ) 
+                      selama saya di sekolah ini saya telah belajar dasar-dasar html dan membuat macam - macam projek untuk menjadi website dan selalu mendapatkan materi baru tentang 
+                      web yang akan di kerjakan diberikut hari nya.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h3>HTML</h3>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <h3>CSS</h3>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+              </div>
+            </div>
+          </div>
+          <div class="row mb-5">
+            <div class="col">
+              <h3>PHP</h3>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 45%;" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100">45%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Projects-->
+
+      <section id="projects">
+        <div class="container">
+              <div class="row text-center justify-content-center">
+                <div class="col">
+                    <h2 class="mt-4">My Projects</h2>
+                </div>
+              </div>
+              <div class="row mt-5">
+                <div class="col-md-6 mb-3">
+                      <div class="card">
+                        <img src="img/project1.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">PHP</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <div class="card">
+                        <img src="img/project2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">HTML + CSS</p>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            
+        </div>
+      </section>
+
+      <!--contact-->
+    <section id="contact">
+        <div class="container mt-5">
+            <div class="row text-center mb-3">
+                <div class="col">
+                    <h2>Contact Me</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <form>
+                        <div class="mb-3">
+                          <label for="name" class="form-label">Full Name</label>
+                          <input type="text" class="form-control" id="name" aria-describedby="name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="email" aria-describedby="email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="order" class="form-label">Order</label>
+                            <input type="text" class="form-control" id="order" aria-describedby="order">
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                      </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--footer-->
+
+    <footer class=" footer text-white  text-center mt-5">
+        <p>Created with love by <a href="https://instagram.com/yougakjelas?igshid=YmMyMTA2M2Y=" class="text-white fw-bold">Anugerah Fitria Aswah</a></p>
+    </footer>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    
+  </body>
+</html>
